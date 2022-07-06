@@ -70,13 +70,6 @@ class Game:
 
 dashs = '-' * 40
 
-welcome = input(f'{dashs}\nVocê quer jogar o jogo da forca? s/n\n{dashs}\n\n')
-
-if welcome != 's':
-    quit('\nOk, tchau!')
-
-else:
-    Game().call_class()
 
 
 
